@@ -1,0 +1,37 @@
+OBJECTS:
+Initializing objects on MDN – “An object initializer is a comment-delimited list of zero or more pairs of property names, and associated values of an object, enclosed in curly braces.”
+Basics – Object literals used here allow new shorthands to be used. I got 5 out of 5 tests to pass on this exercise.
+Computed Properties – Computed property names need brackets around them. They can get a function assigned to them, can be the result of a function call, constructed by an expression, and they can be used as accessor keys. [accessorKeyComputedPropertyNameExample]()
+
+CLASSES:
+Inheritance & Classes on MDN – JavaScript has only one inheritance construct. Objects. “Each object has a private property which holds a link to another object called it’s prototype. Null has no prototype, and acts as the final link in this prototype chain. Nearly all objects in JavaScript are instances of Object which sits on the top of a prototype chain.” “JavaScript objects are dynamic "bags" of properties (referred to as own properties).”
+Classes are special functions which include class expressions and declarations. Function declarations are hoisted and class declarations are not.
+
+Creation – The constructor method is used to create and initialize an object created with a class. There can be only one.
+Statics – Static properties and methods are called without instantiating their class. They are often used to create utility functions for apps and are useful for fixed configuration.
+Extends – The extends keyword is used to create a class as a child of another class.
+
+DESTRUCTURING:
+Destructuring on MDN – “The destructuring Assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.”
+Array Destructuring – An array can be assigned value through destructuring separate from the variable declaration, and can be assigned a default. Variables can be swapped with one destructuring expression.
+String Destructuring – You can assign a string as a default value.
+Object Destructuring – An object variable can be assigned a value with destructuring outside of its declaration.
+Destructuring with Defaults – A variable can be assigned a default when the value unpacked from the array is undefined.
+Destructuring with Function Parameters –  You can unpack fields from objects passed as a function parameter.
+Destructuring with Alias – This can be done by assigning object property values to new variables while destructuring. 
+
+REST:
+Rest on MDN – “A rest parameter syntax allows us to represent an indefinite number if arguments as an array.”
+Rest as a Parameter – There can only be one rest parameter. It must be the last argument. It can be destructured arrays. The syntax is “. . . “
+Rest while Destructuring – You can “unpack” and assign the remaining part of a destructured array to a variable using the rest pattern.
+
+SPREAD:
+Spread on MDN – Spread allows an iterable to be expanded using the syntax “. . . “
+Array Speed – Using spread allows arrays to perform faster because it is a more efficient syntax.
+
+FUNCTION DEFAULTS:
+Default Parameters on MDN – “Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed.”
+Function Defaults – Function parameters usually default to undefined, but setting a different value can be helpful and it is possible using default function parameters.
+
+
+ 
